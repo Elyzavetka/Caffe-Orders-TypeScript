@@ -1,9 +1,11 @@
-import { PriceBracket } from "./orders";
-
-export const coffeeShops = [
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.coffeeShops = void 0;
+var orders_1 = require("./orders");
+exports.coffeeShops = [
     {
         name: "Sugar Rush Bakery 🍩",
-        priceBracket: PriceBracket.Medium,
+        priceBracket: orders_1.PriceBracket.Medium,
         deliveryTimeMinutes: 40,
         openHour: "12",
         closeHour: "23",
@@ -11,7 +13,7 @@ export const coffeeShops = [
     },
     {
         name: "Candy Coated Café 🍬",
-        priceBracket: PriceBracket.Low,
+        priceBracket: orders_1.PriceBracket.Low,
         deliveryTimeMinutes: 20,
         openHour: "12",
         closeHour: "21",
@@ -19,7 +21,7 @@ export const coffeeShops = [
     },
     {
         name: "ChocoDelight Bistro 🍫",
-        priceBracket: PriceBracket.High,
+        priceBracket: orders_1.PriceBracket.High,
         deliveryTimeMinutes: 60,
         openHour: "18",
         closeHour: "22",
@@ -27,7 +29,7 @@ export const coffeeShops = [
     },
     {
         name: "Vanilla Dreams Café 🍦",
-        priceBracket: PriceBracket.Low,
+        priceBracket: orders_1.PriceBracket.Low,
         deliveryTimeMinutes: 20,
         openHour: "0",
         closeHour: "12",
@@ -35,12 +37,10 @@ export const coffeeShops = [
     },
     {
         name: "Sweet Tooth Treats 🍭",
-        priceBracket: PriceBracket.Medium,
+        priceBracket: orders_1.PriceBracket.Medium,
         deliveryTimeMinutes: 20,
         openHour: "15",
         closeHour: "23",
         distance: "12",
     },
 ];
-
-export type CoffeeShop = typeof coffeeShops[0];
