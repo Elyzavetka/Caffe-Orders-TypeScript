@@ -12,3 +12,15 @@ const getMaxPrice = (price: PriceBracket) => {
 
     }
 }
+const getOrders = (price: PriceBracket, orders: Order[][]) => {
+    let filteredOrders: Order[][] = []
+    orders[0].filter((order:Order) => order.price <= getMaxPrice(price))
+    orders.forEach((coffeeShop: Order[]) => {
+        const result = coffeeShop.filter((order:Order) => order.price <= getMaxPrice(price));
+        filteredOrders.push(result)
+    });
+    return filteredOrders;
+}
+
+const eligibleOrders = getOrders(PriceBracket.Low, orders);
+console.log(eligibleOrders);
