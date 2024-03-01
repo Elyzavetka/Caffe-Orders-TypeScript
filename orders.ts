@@ -7,57 +7,57 @@ export enum PriceBracket {
     export const orders = [
         [
             {
-                name: "Miso Ramen",
+                name: "Chocolate Cake",
                 price: 15.99,
             },
             {
-                name: "Gyoza and Rice",
+                name: "Blueberry Muffin",
                 price: 7.99,
             },
             {
-                name: "Sashimi Lunch Set",
+                name: "Croissant",
                 price: 13.99,
             },
             ],
         [
             {
-                name: "Chicken and Waffles",
+                name: "Cheesecake Slice",
                 price: 9.99,
             },
             {
-                name: "Buffalo Wings Special",
+                name: "Strawberry Tart",
                 price: 8.99,
             },
             {
-                name: "Rottiserie Meal Deal",
+                name: "Cinnamon Roll",
                 price: 11.99,
             },
         ],
         [
             {
-            name: "Rigatoni Bolognese",
+            name: "Red Velvet Cupcake",
             price: 24,
             },
             {
-                name: "Insalata Di Parma",
+                name: "Lemon Drizzle Cake",
                 price: 20,
             },
             {
-                name: "Lasagna Al Forno",
+                name: "Chocolate Chip Cookie",
                 price: 22,
             },  
         ],
         [
             {
-                name: "Turkey Bacon Bagel",
+                name: "Apple Pie",
                 price: 6.99,
             },
             {
-                name: "Lox Cream Cheese Bagel",
+                name: "Pecan Brownie",
                 price: 9.99,
             },
             {
-                name: "Pastrami Swiss Bagel",
+                name: "Raspberry Pie",
                 price: 7.99,
             },
         ],
