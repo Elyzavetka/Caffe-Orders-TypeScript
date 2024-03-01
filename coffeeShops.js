@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.coffeeShops = void 0;
-var orders_1 = require("./orders");
+const orders_1 = require("./orders");
 exports.coffeeShops = [
     {
         name: "Sugar Rush Bakery 🍩",

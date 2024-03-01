@@ -24,3 +24,4 @@ const getOrders = (price: PriceBracket, orders: Order[][]) => {
 
 const eligibleOrders = getOrders(PriceBracket.Low, orders);
 console.log(eligibleOrders);
+console.log('Hello')
