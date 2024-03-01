@@ -2,7 +2,7 @@ import { PriceBracket } from "./orders";
 
 export const coffeeShops = [
     {
-        name: "Silver Rice Sushi 🍣",
+        name: "Sugar Rush Bakery 🍩",
         priceBracket: PriceBracket.Medium,
         deliveryTimeMinutes: 40,
         openHour: "12",
@@ -10,7 +10,7 @@ export const coffeeShops = [
         distance: "5",
     },
     {
-        name: "Nikko's Rotisserie Chicken 🍗",
+        name: "Candy Coated Café 🍬",
         priceBracket: PriceBracket.Low,
         deliveryTimeMinutes: 20,
         openHour: "12",
@@ -18,7 +18,7 @@ export const coffeeShops = [
         distance: "8",
     },
     {
-        name: "Aita Trattoria 🍝",
+        name: "ChocoDelight Bistro 🍫",
         priceBracket: PriceBracket.High,
         deliveryTimeMinutes: 60,
         openHour: "18",
@@ -26,7 +26,7 @@ export const coffeeShops = [
         distance: "1",
     },
     {
-        name: "Lula Bagel 🥯",
+        name: "Vanilla Dreams Café 🍦",
         priceBracket: PriceBracket.Low,
         deliveryTimeMinutes: 20,
         openHour: "0",
@@ -34,7 +34,7 @@ export const coffeeShops = [
         distance: "2",
     },
     {
-        name: "Golden Chopstick 🥢",
+        name: "Sweet Tooth Treats 🍭",
         priceBracket: PriceBracket.Medium,
         deliveryTimeMinutes: 20,
         openHour: "15",

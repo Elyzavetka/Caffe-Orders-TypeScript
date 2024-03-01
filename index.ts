@@ -1,2 +1,2 @@
-import { coffeeShops, CoffeeShop } from "./coffeShops";
+import { coffeeShops, CoffeeShop } from "./coffeeShops";
 import { orders, Order, PriceBracket } from "./orders";
