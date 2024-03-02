@@ -22,6 +22,18 @@ const getOrders = (price: PriceBracket, orders: Order[][]) => {
     return filteredOrders;
 }
 
+const printOrders = (coffeeShops: CoffeeShop[], orders: Order[][]) => {
+    coffeeShops.forEach((coffeeShop: CoffeeShop, index: number) => {
+        if (orders[index].length > 0) {
+            console.log(coffeeShop.name)
+            orders[index].forEach((order) => {
+            console.log(`-${order.name}: ${order.price}`);
+            })
+        }
+    })
+
+}
+
 const eligibleOrders = getOrders(PriceBracket.Low, orders);
-console.log(eligibleOrders);
-console.log('Hello')
+printOrders(coffeeShops, eligibleOrders);
+
